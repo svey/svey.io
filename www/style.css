@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(#FFE9AA, #87CEFA);
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+    color: #008CBA;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    display: inline-block;
+    font-size: 16px;
+    width: 193px;
+}
+
+button:hover {
+    /*background: linear-gradient(45deg, #FFE9AA, green);*/
+    background-color: #008CBA;
+    color: white;
+}
+
+h1 {
+  color: black;
+  font-family: Arial;
+
+}
