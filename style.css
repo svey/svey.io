@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+  background-color: rgb(51, 46, 0);
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.info {
+  font-family: courier;
+  font-size: 1.55rem;
+  color: grey;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .045em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end) forwards,
+    caret 1s step-end infinite;
+}
+
+@keyframes typing{ 
+  from { width: 0; }
+  to { width: 1125px; }
+}
+
+@keyframes caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.sites {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 50vh;
+}
+
+.site {
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.site:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+  text-decoration: none;
+}
+
