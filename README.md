@@ -1,6 +1,6 @@
 # www.svey.io
 
-My simple splash-page for personal branding.
+My simple splash page for personal branding. Let's connect!
 
 ## Getting Started
 
