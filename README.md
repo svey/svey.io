@@ -21,7 +21,7 @@ www.svey.io is deployed on heroku. For more info about deployment with heroku se
 
 ## Author
 
-* **Marcus Svehlak
+Marcus Svehlak
 
 ## Acknowledgments
 
