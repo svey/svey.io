@@ -11,7 +11,7 @@ My simple splash page for personal branding. Let's connect!
 
 ## Deployment
 
-App is deployed on heroku. See https://devcenter.heroku.com/articles/git for more info. 
+www.svey.io is deployed on heroku. For more info about deployment with heroku see https://devcenter.heroku.com/articles/git. 
 
 ## Built With
 
