@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/svey/svey.io#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2"
   }
 }
