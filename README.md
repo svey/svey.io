@@ -4,15 +4,10 @@ My simple splash page for personal branding. Let's connect!
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
--Fork the repo
--Run 'npm install'
--Run 'npm start'
--Visit localhost:3000
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+* Fork the repo
+* Run 'npm install'
+* Run 'npm start'
+* Navigate to localhost:3000 in your browser
 
 ```
 ## Deployment
