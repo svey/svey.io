@@ -7,7 +7,6 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 .info {
@@ -24,9 +23,9 @@ body,html {
     caret 1s step-end infinite;
 }
 
-@keyframes typing{ 
-  from { width: 0; }
-  to { width: 538px; }
+@keyframes typing { 
+  0% { width: 0; }
+  100% { width: 538px; }
 }
 
 @keyframes caret {
