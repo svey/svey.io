@@ -25,4 +25,4 @@ Marcus Svehlak
 
 ## Acknowledgments
 
-* Thanks to Geoff Graham for the guide on CSS animations.
+Thanks to Geoff Graham for the guide on CSS animations.
