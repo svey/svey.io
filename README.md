@@ -9,7 +9,6 @@ My simple splash page for personal branding. Let's connect!
 * Run 'npm start'
 * Navigate to localhost:3000 in your browser
 
-```
 ## Deployment
 
 App is deployed on heroku. See https://devcenter.heroku.com/articles/git for more info. 
