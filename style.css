@@ -24,8 +24,8 @@ body,html {
 }
 
 @keyframes typing { 
-  0% { width: 0; }
-  100% { width: 538px; }
+  from { width: 0; }
+  to { width: 538px; }
 }
 
 @keyframes caret {
