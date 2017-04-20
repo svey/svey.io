@@ -1,6 +1,6 @@
 # www.svey.io
 
-My simple splash page for personal branding. Let's connect!
+My simple splash page for personal branding.
 
 ## Getting Started
 
@@ -25,4 +25,4 @@ Marcus Svehlak
 
 ## Acknowledgments
 
-Thanks to Geoff Graham for the guide on CSS animations.
+Rachel Smith for the animation demo. For more info see: https://rachsmith.com/
