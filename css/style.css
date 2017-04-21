@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(51, 46, 0);
+  background-color: #5C5E25;
   line-height: 1.25;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
@@ -23,7 +23,7 @@ a {
 
 a:hover {
     background-color: #000;
-    color: rgb(51, 46, 0);
+    color: #5C5E25;
 }
 
 canvas {
