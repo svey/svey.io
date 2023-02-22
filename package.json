@@ -2,7 +2,7 @@
   "name": "svey.io",
   "version": "1.0.0",
   "description": "Marcus Svehlak's landing page.",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -25,12 +25,5 @@
   "bugs": {
     "url": "https://github.com/svey/svey.io/issues"
   },
-  "homepage": "https://github.com/svey/svey.io#readme",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "eslint-config-rallycoding": "^3.2.0"
-  }
+  "homepage": "https://svey.io"
 }
