@@ -17,7 +17,7 @@ a:hover {
 }
 
 body {
-  background-color: #222222;
+  background-color: rgb(89, 98, 112);
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
   color: #000;
@@ -96,4 +96,109 @@ canvas {
   .unhide {
     display: block;
   }
+}
+.scene {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+
+.box__face {
+  position: absolute;
+  font-size: 24px;  
+  text-align: center;
+  line-height: 40px;
+  text-shadow: 0 0 12px currentColor;
+  background-color: rgba(20, 41, 64, .8);
+}
+
+.box__face--front,
+.box__face--back {
+  width: 40px;
+  height: 40px;
+}
+
+.box__face--right,
+.box__face--left {
+  width: 40px;
+  height: 40px;
+  left: 40px;
+}
+
+.box__face--top,
+.box__face--bottom {
+  width: 40px;
+  height: 40px;
+  top: 20px;
+}
+
+.box__face--front {
+  color:yellow;
+}
+
+.box__face--back {
+  color:chartreuse
+}
+
+.box__face--top {
+  color:deeppink;
+}
+
+.box__face--bottom {
+  color:yellow;
+}
+
+.box__face--right {
+  color: white;
+}
+
+.box__face--left {
+  color:cyan;
+}
+
+.box__face--front {
+  transform: translateZ(20px) ;
+}
+
+.box__face--back {
+  transform: translateZ(-20px);
+}
+
+.box__face--right {
+  transform: rotateY(90deg) rotateX(180deg) translateZ(20px);
+}
+
+.box__face--left {
+  transform: rotateY(-90deg) rotateX(180deg) translateZ(-60px);
+}
+
+.box__face--top {
+  transform: rotateX(90deg) translateZ(40px);
+}
+
+.box__face--bottom {
+  transform: rotateX(-90deg) translateZ(0px);
+}
+
+/* rotate cube vertically infinitely */
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(-720deg) rotateY(360deg);
+  }
+}
+
+/* rotate cube horizontally infinitely */
+.box {
+  animation: spin 8s infinite linear;
 }
