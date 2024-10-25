@@ -5,9 +5,8 @@ My splash page for personal branding.
 ## Getting Started
 
 * Fork the repo
-* Run 'npm install'
-* Run 'npm start'
-* Navigate to localhost:3000 in your browser
+* php -S 127.0.0.1:8000
+* Visit localhost:8000
 
 ## Deployment
 
