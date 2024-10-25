@@ -88,6 +88,22 @@ canvas {
   right: 0;
 }
 
+.intro-container {
+  font-size: 24px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 10%;
+}
+
+.emoji-container {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width : 864px) {
   .hide {
     display: none;
@@ -97,6 +113,7 @@ canvas {
     display: block;
   }
 }
+
 .scene {
   width: 40px;
   height: 40px;
@@ -113,7 +130,7 @@ canvas {
 
 .box__face {
   position: absolute;
-  font-size: 24px;  
+  font-size: 24px;
   text-align: center;
   line-height: 40px;
   text-shadow: 0 0 12px currentColor;
@@ -141,19 +158,19 @@ canvas {
 }
 
 .box__face--front {
-  color:yellow;
+  color: yellow;
 }
 
 .box__face--back {
-  color:chartreuse
+  color: chartreuse
 }
 
 .box__face--top {
-  color:deeppink;
+  color: deeppink;
 }
 
 .box__face--bottom {
-  color:yellow;
+  color: yellow;
 }
 
 .box__face--right {
@@ -161,11 +178,11 @@ canvas {
 }
 
 .box__face--left {
-  color:cyan;
+  color: cyan;
 }
 
 .box__face--front {
-  transform: translateZ(20px) ;
+  transform: translateZ(20px);
 }
 
 .box__face--back {
@@ -193,6 +210,7 @@ canvas {
   from {
     transform: rotateX(0deg) rotateY(0deg);
   }
+
   to {
     transform: rotateX(-720deg) rotateY(360deg);
   }
