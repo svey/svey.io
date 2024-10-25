@@ -1,6 +1,6 @@
 # www.svey.io
 
-My simple splash page for personal branding.
+My splash page for personal branding.
 
 ## Getting Started
 
@@ -11,13 +11,13 @@ My simple splash page for personal branding.
 
 ## Deployment
 
-www.svey.io is deployed on heroku. For more info about deployment with heroku see https://devcenter.heroku.com/articles/git. 
-
+[www.svey.io](www.svey.io) is deployed on [render.com](https://render.com/)— Check them out they're rad!
 ## Built With
 
-* Node/Express
+* PHP
 * HTML
 * CSS
+* JAVASCRIPT
 
 ## Author
 
@@ -25,4 +25,4 @@ Marcus Svehlak
 
 ## Acknowledgments
 
-Rachel Smith for the animation demo. For more info see: https://rachsmith.com/
+[Rachel Smith](https://rachsmith.com/)— I re-wrote her animation!
